@@ -8,7 +8,7 @@ spec:
   accessModes:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Delete
-  storageClassName: standart
+  storageClassName: standard
   hostPath:
     path: /tmp/todoapp-data
     type: DirectoryOrCreate
